@@ -11,9 +11,12 @@ VCS:        {{{ git_vcs }}}
 
 Source:     {{{ git_pack }}}
 
+Requires: moeingevm
+
 BuildRequires: golang
 BuildRequires: git
 BuildRequires: gcc-g++
+BuildRequires: go-rpm-macros
 
 %description
 A full node client of smartBCH, an EVM&Web3 compatible sidechain for
